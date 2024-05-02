@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+html{
+    font-family: 'Outfit', Arial, sans-serif;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    margin-left:300px;
+    margin-right:300px;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 100%);
+    padding:40px;
+    border-radius: 20px;
+}
+
+#recipe-text{
+    color: hsl(24, 5%, 18%);
+    text-align: initial;
+    font-family: 'Young Serif', Arial, sans-serif;
+    font-weight: 400;
+}
+
+#omelette{
+    width: 100%;
+    border-radius: 20px;
+    position:relative;
+    align-items: center;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 25px 0px 20px 25px;
+    border-radius: 10px;
+    font-family: 'Outfit', Arial, sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul{
+    padding: 0px 0px 0px 20px;
+}
+.preparation p{
+    margin-left: 20px;
+}
+
+#preparation-time{
+    color:hsl(332, 51%, 32%);
+    margin-top: 0;
+    font-family: 'Outfit', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.nutrition{
+    font-family: 'Outfit', Arial, sans-serif;
+    justify-content: space-between;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+#nutrition{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', Arial, sans-serif;
+    font-weight: 400;
+}
+.nutrition p{
+    padding: 0px 0px 0px 30px
+}
+.nutrition-p{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+#instructions{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', Arial, sans-serif;
+    font-weight: 400;
+}
+.instructions{
+    font-family: 'Outfit', Arial, sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 22px
+}
+.instructions p{
+    margin-left: 20px;
+}
+
+.ingredients{
+    font-family: 'Outfit', Arial, sans-serif;
+    color:hsl(14, 45%, 36%);
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 16px
+}
+.ingredients p{
+    margin-left: 20px;
+}
+
+#ingredients{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.paragraph{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-family: 'Outfit', Arial, sans-serif;
+    font-weight: 400;
+}
+
+td {
+    border-bottom: 1px solid hsl(20, 2%, 65%);
+}
+.attribution{
+    margin: 30px;
+    color: hsl(24, 5%, 18%);
+}
+.attribution a{
+    text-decoration: none;
+    color:hsl(332, 51%, 32%);
+    transition: 0.5s
+}
+.attribution a:hover{
+    color:hsl(20, 2%, 65%);
+
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        margin: 0;
+        padding: 30px;
+        border-radius: 0;
+    }
+    #preparation-time{
+        font-size: 23px;
+    }
+    .preparation{
+        width: 100%;
+        margin-left: -13px;
+    }
+    .preparation p{
+        font-size: 18px;
+    }
+    #omelette{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    #instructions{
+        font-size: 30px;
+    }
+    #ingredients{
+        font-size: 30px;
+    }
+    #nutrition{
+        font-size: 30px;
+    }
+}
